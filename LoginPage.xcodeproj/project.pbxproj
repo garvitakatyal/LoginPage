@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567F1571BAD8F6D311DB57D3 /* Pods_LoginPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF1072BF331C1F9797FA74 /* Pods_LoginPage.framework */; };
 		8C6F13C92765AE5300661782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F13C82765AE5300661782 /* AppDelegate.swift */; };
 		8C6F13CB2765AE5300661782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F13CA2765AE5300661782 /* SceneDelegate.swift */; };
 		8C6F13CD2765AE5300661782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F13CC2765AE5300661782 /* ViewController.swift */; };
 		8C6F13D02765AE5300661782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F13CE2765AE5300661782 /* Main.storyboard */; };
 		8C6F13D22765AE5600661782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F13D12765AE5600661782 /* Assets.xcassets */; };
 		8C6F13D52765AE5600661782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F13D32765AE5600661782 /* LaunchScreen.storyboard */; };
+		8C6F13DD2765B14C00661782 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F13DC2765B14B00661782 /* LoginViewController.swift */; };
+		8C6F13DF2765B17000661782 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F13DE2765B17000661782 /* SignUpViewController.swift */; };
+		8CDB8FD0276650BC004279EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CDB8FCF276650BC004279EC /* GoogleService-Info.plist */; };
+		8CDB8FD327665985004279EC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8CDB8FD227665985004279EC /* FirebaseAnalytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02C6A58392B2CCEDA71B7259 /* Pods-LoginPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginPage.debug.xcconfig"; path = "Target Support Files/Pods-LoginPage/Pods-LoginPage.debug.xcconfig"; sourceTree = "<group>"; };
+		8566EF56AFFE40A1B9D959FF /* Pods-LoginPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginPage.release.xcconfig"; path = "Target Support Files/Pods-LoginPage/Pods-LoginPage.release.xcconfig"; sourceTree = "<group>"; };
 		8C6F13C52765AE5300661782 /* LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6F13C82765AE5300661782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C6F13CA2765AE5300661782 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,10 @@
 		8C6F13D12765AE5600661782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C6F13D42765AE5600661782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C6F13D62765AE5600661782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6F13DC2765B14B00661782 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8C6F13DE2765B17000661782 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8CDB8FCF276650BC004279EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3BF1072BF331C1F9797FA74 /* Pods_LoginPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +42,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CDB8FD327665985004279EC /* FirebaseAnalytics in Frameworks */,
+				567F1571BAD8F6D311DB57D3 /* Pods_LoginPage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14457394E68CC32833BFE556 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02C6A58392B2CCEDA71B7259 /* Pods-LoginPage.debug.xcconfig */,
+				8566EF56AFFE40A1B9D959FF /* Pods-LoginPage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C17BEE0AFA45D0041CBCE24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF1072BF331C1F9797FA74 /* Pods_LoginPage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8C6F13BC2765AE5300661782 = {
 			isa = PBXGroup;
 			children = (
 				8C6F13C72765AE5300661782 /* LoginPage */,
 				8C6F13C62765AE5300661782 /* Products */,
+				14457394E68CC32833BFE556 /* Pods */,
+				4C17BEE0AFA45D0041CBCE24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +92,9 @@
 				8C6F13CA2765AE5300661782 /* SceneDelegate.swift */,
 				8C6F13CC2765AE5300661782 /* ViewController.swift */,
 				8C6F13CE2765AE5300661782 /* Main.storyboard */,
+				8CDB8FCF276650BC004279EC /* GoogleService-Info.plist */,
+				8C6F13DC2765B14B00661782 /* LoginViewController.swift */,
+				8C6F13DE2765B17000661782 /* SignUpViewController.swift */,
 				8C6F13D12765AE5600661782 /* Assets.xcassets */,
 				8C6F13D32765AE5600661782 /* LaunchScreen.storyboard */,
 				8C6F13D62765AE5600661782 /* Info.plist */,
@@ -74,15 +109,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C6F13D92765AE5600661782 /* Build configuration list for PBXNativeTarget "LoginPage" */;
 			buildPhases = (
+				7514D31B31373020F7E438DF /* [CP] Check Pods Manifest.lock */,
 				8C6F13C12765AE5300661782 /* Sources */,
 				8C6F13C22765AE5300661782 /* Frameworks */,
 				8C6F13C32765AE5300661782 /* Resources */,
+				19A81A3F0B19097AAB177D4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LoginPage;
+			packageProductDependencies = (
+				8CDB8FD227665985004279EC /* FirebaseAnalytics */,
+			);
 			productName = LoginPage;
 			productReference = 8C6F13C52765AE5300661782 /* LoginPage.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +151,9 @@
 				Base,
 			);
 			mainGroup = 8C6F13BC2765AE5300661782;
+			packageReferences = (
+				8CDB8FD127665985004279EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8C6F13C62765AE5300661782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C6F13D52765AE5600661782 /* LaunchScreen.storyboard in Resources */,
+				8CDB8FD0276650BC004279EC /* GoogleService-Info.plist in Resources */,
 				8C6F13D22765AE5600661782 /* Assets.xcassets in Resources */,
 				8C6F13D02765AE5300661782 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +177,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19A81A3F0B19097AAB177D4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginPage/Pods-LoginPage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginPage/Pods-LoginPage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginPage/Pods-LoginPage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7514D31B31373020F7E438DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginPage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C6F13C12765AE5300661782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6F13DD2765B14C00661782 /* LoginViewController.swift in Sources */,
 				8C6F13CD2765AE5300661782 /* ViewController.swift in Sources */,
 				8C6F13C92765AE5300661782 /* AppDelegate.swift in Sources */,
 				8C6F13CB2765AE5300661782 /* SceneDelegate.swift in Sources */,
+				8C6F13DF2765B17000661782 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +372,7 @@
 		};
 		8C6F13DA2765AE5600661782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C6A58392B2CCEDA71B7259 /* Pods-LoginPage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +401,7 @@
 		};
 		8C6F13DB2765AE5600661782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8566EF56AFFE40A1B9D959FF /* Pods-LoginPage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +450,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8CDB8FD127665985004279EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CDB8FD227665985004279EC /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CDB8FD127665985004279EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8C6F13BD2765AE5300661782 /* Project object */;
 }
